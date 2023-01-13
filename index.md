@@ -1,8 +1,8 @@
 ---
-title: Jen Traver
+title: Home
 layout: home
 ---
-Welcome! My name is Jen. I am a Quantitative Psychology student at the University of North Carolina - Chapel Hill. 
+Welcome! My name is Jen Traver. I am a Quantitative Psychology student at the University of North Carolina - Chapel Hill. 
 
 
 
