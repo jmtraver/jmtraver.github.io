@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Me
+nav_order: 2
 ---
 ## Contact information
 * email: jmtraver@unc.edu
