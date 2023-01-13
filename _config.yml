@@ -3,4 +3,7 @@ theme: just-the-docs
 
 url: https://jmtraver.github.io/
 
-
+callouts:
+  warning:
+    title: Warning
+    color: red
