@@ -2,6 +2,7 @@
 title: Home
 layout: home
 ---
+# Jennifer M. Traver
 Welcome! My name is Jen Traver. I am a Quantitative Psychology student at the University of North Carolina - Chapel Hill. 
 
 
