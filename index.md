@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 # Jennifer M. Traver
-Welcome! My name is Jen Traver. I am a Quantitative Psychology student at the University of North Carolina - Chapel Hill. 
+Welcome! My name is Jen Traver. I am a Quantitative Psychology student at the [University of North Carolina - Chapel Hill](https://quantpsych.unc.edu/). I work with my advisor, [Patrick Curran](https://curran.web.unc.edu/) to study longitudinal methodology and applications to developmental theories.
 
 
 
