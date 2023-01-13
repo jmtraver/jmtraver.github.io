@@ -8,6 +8,6 @@ callouts:
     title: Warning
     color: red
 plugins:
-  - codetabs
+  - jekyll-code-tabs
 
 enable_copy_code_button: true
