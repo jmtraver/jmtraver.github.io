@@ -9,3 +9,5 @@ callouts:
     color: red
 plugins:
   - codetabs
+
+enable_copy_code_button: true
