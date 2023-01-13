@@ -7,7 +7,5 @@ callouts:
   warning:
     title: Warning
     color: red
-    
-markdown: JdvpCodeTabsCommonMark
 
 enable_copy_code_button: true
