@@ -7,3 +7,5 @@ callouts:
   warning:
     title: Warning
     color: red
+plugins:
+  - codetabs
