@@ -10,3 +10,4 @@ group :jekyll_plugins do
   gem 'jdvp-codetabs-commonmark'
 end
    
+bundle install
