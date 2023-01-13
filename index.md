@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 # Jennifer M. Traver
 Welcome! My name is Jen. I am a [Quantitative Psychology](https://quantpsych.unc.edu/) PhD student at UNC Chapel Hill working with [Patrick Curran](https://curran.web.unc.edu/). I study logitudinal structural equation modeling, longitudinal measurement, and quant method applications to developmental data. I am also interested in the dissemination of quantitative methods and will be continuously working to update this website with tutorials for various quantitative models.  
