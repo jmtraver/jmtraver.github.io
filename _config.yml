@@ -7,7 +7,7 @@ callouts:
   warning:
     title: Warning
     color: red
-plugins:
-  - jekyll-code-tabs
+    
+markdown: JdvpCodeTabsCommonMark
 
 enable_copy_code_button: true
