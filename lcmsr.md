@@ -1,3 +1,4 @@
 ---
-title: LCM-SR Tutorial Page
+title: Latent Curve Model with Structured Residuals
+parent: Tutorials
 ---
