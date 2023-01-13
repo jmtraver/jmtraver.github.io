@@ -14,13 +14,24 @@ This page is currently under construction. Please check back later for updates.
 
 
 
-{% codetabs name="Python", type="py" -%}
-msg = "Hello World"
-print msg
-{%- language name="JavaScript", type="js" -%}
-var msg = "Hello World";
-console.log(msg);
-{%- language name="HTML", type="html" -%}
-<b>Hello World</b>
-{%- endcodetabs %}
+{% codetabs %}
 
+{% codetab C %}
+```c
+printf("Hello, world!");
+```
+{% endcodetab %}
+
+{% codetab Go %}
+```go
+fmt.Println("Hello, world!")
+```
+{% endcodetab %}
+
+{% codetab Python %}
+```python
+print("Hello, world!")
+```
+{% endcodetab %}
+
+{% endcodetabs %}
