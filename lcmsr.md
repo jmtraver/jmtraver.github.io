@@ -13,7 +13,7 @@ This page is currently under construction. Please check back later for updates.
 ## A Tutorial by Jen Traver and Patrick Curran
 
 
-'''
+
 {% codetabs name="Python", type="py" -%}
 msg = "Hello World"
 print msg
@@ -23,4 +23,4 @@ console.log(msg);
 {%- language name="HTML", type="html" -%}
 <b>Hello World</b>
 {%- endcodetabs %}
-'''
+
