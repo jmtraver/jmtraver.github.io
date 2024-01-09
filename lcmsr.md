@@ -13,3 +13,4 @@ This page is currently under construction. Please check back later for updates.
 ## A tutorial by Jen Traver and Patrick Curran
 ---
 
+* [Click here to download the data](/currandemo.dat)
