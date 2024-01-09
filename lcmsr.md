@@ -14,20 +14,4 @@ Testing the note function
 # Latent Curve Model with Structured Residuals
 ## A tutorial by Jen Traver and Patrick Curran
 
-```
-{{% tabs %}}
-{{% tab "Groovy" %}}
- standard fenced code block here
-{{% /tab %}}
-
-{{% tab "JavaScript" %}}
- standard fenced code block here
-{{% /tab %}}
-
-{{% tab "Ruby" %}}
- standard fenced code block here
-{{% /tab %}}
-
-{{% /tabs %}}
-```
 ---
