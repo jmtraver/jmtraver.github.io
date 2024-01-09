@@ -8,7 +8,7 @@ callouts:
     title: Warning
     color: red
 callouts:
-  warning:
+  note:
     title: Note
     color: purple
 enable_copy_code_button: true
