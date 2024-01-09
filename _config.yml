@@ -7,5 +7,8 @@ callouts:
   warning:
     title: Warning
     color: red
-
+callouts:
+  warning:
+    title: Note
+    color: purple
 enable_copy_code_button: true
