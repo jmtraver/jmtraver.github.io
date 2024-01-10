@@ -28,7 +28,7 @@ The LCM-SR is a structural equation model used to disaggregate the between- and 
 
 #### Model 1: Univariate Unconditional Model (Alcohol Use)
 
-<img src="https://github.com/jmtraver/jmtraver.github.io/blob/main/images/LCM_tutorial_M1.jpeg" width = "100>
+<img src="https://github.com/jmtraver/jmtraver.github.io/assets/86020261/b91282e3-ec51-4111-8bf7-295ae5609a88" width = "100>
 <details>
   <summary>R Code</summary>
 </details>
