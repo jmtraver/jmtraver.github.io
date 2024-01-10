@@ -1,10 +1,15 @@
 ---
 ---
 # Latent Curve Model with Structured Residuals
+{: .no_toc}
 ## A tutorial by Jen Traver and Patrick Curran
-
-- TOC
+{: .no_toc}
+<details open markdown = "block">
+ <summary> Table of contents 
+ </summary>
+1. TOC
  {:toc}
+</details>
 
 ### Overview
 The LCM-SR is a structural equation model used to disaggregate the between- and within-person effects of two constructs as they unfold over time. The ability to disaggregate levels of effects is extremely desirable, as it allows researchers to more accurately and fully test their hypotheses. This tutorial will provide a practical introduction to the parameterization and application of the LCM-SR including: 
