@@ -42,6 +42,6 @@ Download MPlus Code
 #### Model 1: Univariate Unconditional Model (Alcohol Use)
 
 <img src="./images/LCM_tutorial_M1.jpeg" width = "100>
-![/images/LCM_tutorial_M1.jpeg]
+!(/images/LCM_tutorial_M1.jpeg)
 
 ---
