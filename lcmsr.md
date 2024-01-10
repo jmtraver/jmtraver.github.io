@@ -12,7 +12,9 @@ This page is currently under construction. Please check back later for updates.
 Testing the note function
 
 # Latent Curve Model with Structured Residuals
+{: .no_toc}
 ## A tutorial by Jen Traver and Patrick Curran
+{: .no_toc}
 - TOC
  {:toc}
 ### Heading 1
