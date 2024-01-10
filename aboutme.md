@@ -10,7 +10,6 @@ nav_order: 2
 
 
 [Download my CV!](/Jennifer Traver CV Oct2022.pdf){: .btn }
-[Testing Buttion](/Jennifer Traver CV Oct2022.pdf){: .btn }
 
 
 
