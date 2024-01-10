@@ -36,7 +36,7 @@ The LCM-SR is a structural equation model used to disaggregate the between- and 
 The following section walks through the models presented in [Curran et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4067471/) using example data and code made available by Patrick Curran. To follow along in R or MPlus, please use the buttons below to download (1) the data and (2) code in the program of your choice.  
 
 [Download Data](/currandemo.dat){: .btn }
-Download R Code(/LCM-SR.R){: .btn .btn-purple}
+[Download R Code](/LCM-SR.R){: .btn .btn-purple}
 Download MPlus Code
 
 <details>
