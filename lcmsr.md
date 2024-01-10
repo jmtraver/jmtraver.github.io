@@ -15,8 +15,13 @@ Testing the note function
 {: .no_toc}
 ## A tutorial by Jen Traver and Patrick Curran
 {: .no_toc}
-- TOC
+<details open markdown = "block">
+ <summary> Table of contents 
+ </summary>
+1. TOC
  {:toc}
+</details>
+
 ### Heading 1
 
 ### Heading 2
