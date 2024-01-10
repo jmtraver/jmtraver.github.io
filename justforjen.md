@@ -37,7 +37,7 @@ The following section walks through the models presented in [Curran et al., 2014
 
 [Download Data](/currandemo.dat){: .btn }
 [Download R Code](/LCM-SR.R){: .btn .btn-purple}
-[Download MPlus Code](){: .btn .btn-green}
+[Download MPlus Code](/MPlus){: .btn .btn-green}
 
 <details>
 <summary>Model 1: Univariate Unconditional Model (Alcohol Use)</summary>
