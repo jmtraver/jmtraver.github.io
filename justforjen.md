@@ -53,7 +53,7 @@ The following section walks through the models presented in [Curran et al., 2014
 The data consists of artificially generated repeated measures data with a sample size of N = 250 and 5 timepionts. More details about the population generating model can be found in Curran et al., 2014. 
 
 <details>
-<summary>Models 1a and 1b: Univariate Unconditional Models </summary>
+<summary> <h3></h3>Models 1a and 1b: Univariate Unconditional Models</h3> </summary>
  <!-- Figure out how to add photo of figure -->
  
 <h4>Alcohol Use</h4>
@@ -78,7 +78,7 @@ In R:
       alc5 ~~ 0*alc5 '
 ```
 
-<bold>Depression</bold>
+<h4>Depression</h4>
 
 
 </details>
