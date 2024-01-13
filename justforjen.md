@@ -56,7 +56,7 @@ The data consists of artificially generated repeated measures data with a sample
 <summary>Models 1a and 1b: Univariate Unconditional Models </summary>
  <!-- Figure out how to add photo of figure -->
  
-<bold>Alcohol Use</bold>
+<h4>Alcohol Use</h4>
 First, we fit an intercept-only LCM-SR for alcohol use. 
 
 Initalizing the random intercept:
