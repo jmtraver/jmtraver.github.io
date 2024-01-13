@@ -71,6 +71,7 @@ In MPlus:
 ```
 model:
      alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1;
+```
 
 Creating the structured residuals:
 In R:
