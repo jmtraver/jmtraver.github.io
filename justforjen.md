@@ -53,11 +53,31 @@ The following section walks through the models presented in [Curran et al., 2014
 The data consists of artificially generated repeated measures data with a sample size of N = 250 and 5 timepionts. More details about the population generating model can be found in Curran et al., 2014. 
 
 <details>
-<summary>Model 1: Univariate Unconditional Model (Alcohol Use)</summary>
+<summary>Models 1a and 1b: Univariate Unconditional Models </summary>
+ <!-- Figure out how to add photo of figure -->
+ 
+<bold>Alcohol Use</bold>
+First, we fit an intercept-only LCM-SR for alcohol use. 
 
+Initalizing the random intercept:
+In R:
+``` alc.mod1 <- 'alc =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1* alc5
+                 alc ~ 1
+                 alc ~~ alc'
+```
 
+In MPlus:
 
-<!-- Figure out how to add photo of figure -->
+Creating the structured residuals:
+In R:
+``` ' alc1 ~~ 0*alc1
+      alc2 ~~ 0*alc2
+      alc3 ~~ 0*alc3
+      alc4 ~~ 0*alc4
+      alc5 ~~ 0*alc5 '
+```
+
+<bold>Depression</bold>
 
 
 </details>
