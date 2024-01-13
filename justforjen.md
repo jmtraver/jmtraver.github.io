@@ -63,21 +63,29 @@ Initalizing the random intercept:
 In R:
 ```
 alc.mod1 <- 'alc =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1* alc5
-                 alc ~ 1
-                 alc ~~ alc'
+                 alc ~ 1 # Set the mean of the intercept to 1
+                 alc ~~ alc #Variance of the intercept'
 ```
 
 In MPlus:
+```
+model:
+     alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1;
 
 Creating the structured residuals:
 In R:
-``` ' alc1 ~~ 0*alc1
+```
+     'alc1 ~~ 0*alc1
       alc2 ~~ 0*alc2
       alc3 ~~ 0*alc3
       alc4 ~~ 0*alc4
       alc5 ~~ 0*alc5 '
 ```
 
+In MPlus:
+```
+alc2^-alc5^ pon alc1^-alc4^ (ar);
+```
 <h4>Depression</h4>
 
 
