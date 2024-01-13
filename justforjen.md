@@ -61,7 +61,8 @@ First, we fit an intercept-only LCM-SR for alcohol use.
 
 Initalizing the random intercept:
 In R:
-``` alc.mod1 <- 'alc =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1* alc5
+```
+alc.mod1 <- 'alc =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1* alc5
                  alc ~ 1
                  alc ~~ alc'
 ```
