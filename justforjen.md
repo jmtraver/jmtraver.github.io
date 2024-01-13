@@ -29,20 +29,37 @@ The LCM-SR is a structural equation model used to disaggregate the between- and 
 ### Parameterization of the LCM-SR
 
 
-### Building an LCM-SR 
+### Strategy for Building an LCM-SR 
+
+Although there is no single model building strategy that is optimal for all situations, we will use the following framework:
+
+1. Establish optimal fitting model within each construct separately: for each construct we will (a) determine the optimal functional form of time (linear, quadratic, etc.), (b) test the autoregressions among residuals, and (c) test if the autoregressions are approximately equivalent across time.
+2. Estimate a model for both constructs simultaneously: conduct tests of (a) across-construct relationships at the level of the latent variable, (b) across-construct relationships at the level of the time-structured residuals, and (c) equality constraints on the cross-lagged regressions.
+3. Expand multivariate model to include predictors of interest
+
+At each step, we will conduct likelihood ratio tests (LRTs) to evaluate the change in model fit. 
 
 ### Fitting and interpreting LCM-SRs
 
 The following section walks through the models presented in [Curran et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4067471/) using example data and code made available by Patrick Curran. To follow along in R or MPlus, please use the buttons below to download (1) the data and (2) code in the program of your choice.  
-
+ 
+<!-- figure out how to best add code since R is all in one file and Mplus is across multiple files --> 
 [Download Data](/currandemo.dat){: .btn }
 [Download R Code](/LCM-SR.R){: .btn .btn-purple}
 [Download MPlus Code](/MPlus){: .btn .btn-green}
 
+#### Description of data
+
+The data consists of artificially generated repeated measures data with a sample size of N = 250 and 5 timepionts. More details about the population generating model can be found in Curran et al., 2014. 
+
 <details>
 <summary>Model 1: Univariate Unconditional Model (Alcohol Use)</summary>
 
-<img src="./images/LCM_tutorial_M1.jpeg" width = "100>
+
+
+<!-- Figure out how to add photo of figure -->
+
+
 </details>
 
 ---
