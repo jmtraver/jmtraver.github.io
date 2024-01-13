@@ -80,7 +80,26 @@ In R:
       alc2 ~~ 0*alc2
       alc3 ~~ 0*alc3
       alc4 ~~ 0*alc4
-      alc5 ~~ 0*alc5 '
+      alc5 ~~ 0*alc5
+
+
+      salc1 =~ 1*alc1
+      salc2 =~ 1*alc2
+      salc3 =~ 1*alc3
+      salc4 =~ 1*alc4
+      salc5 =~ 1*alc5
+      
+      salc1 ~ 0
+      salc2 ~ 0
+      salc3 ~ 0
+      salc4 ~ 0
+      salc5 ~ 0
+      
+      salc1 ~~ salc1
+      salc2 ~~ salc2
+      salc3 ~~ salc3
+      salc4 ~~ salc4
+      salc5 ~~ salc5'
 ```
 
 In MPlus:
