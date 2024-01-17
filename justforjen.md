@@ -62,28 +62,29 @@ First, we fit an intercept-only LCM-SR for alcohol use.
 Initalizing the random intercept:
 In R:
 ```
-alc.mod1 <- 'alc =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1* alc5
-                 alc ~ 1 # Add comment
-                 alc ~~ alc #Variance of intercept'
+alc.mod1 <- 'alcint =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1* alc5 # Define latent "alcint" variable with indicators of alcohol T1 - T5
+                 alcint ~ 1 # Indicate that the latent variable alcint is an intercept
+                 alcint ~~ alcint #Variance of intercept'
 ```
 
 In MPlus:
 ```
 model:
-     alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1; 
+     alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1; !Define latent "alcint" variable with indicators of alcohol T1-T5. 
 ```
 
 Creating the structured residuals:
 In R:
 ```
      '
-      #Add comments about what is going on here
+      #Set the variance of alc at each time point to be 0 (?)
       alc1 ~~ 0*alc1
       alc2 ~~ 0*alc2
       alc3 ~~ 0*alc3
       alc4 ~~ 0*alc4
       alc5 ~~ 0*alc5
 
+      #Create residuals (latent variables with alc at a given time point as the indicator)
       salc1 =~ 1*alc1
       salc2 =~ 1*alc2
       salc3 =~ 1*alc3
