@@ -77,26 +77,30 @@ Creating the structured residuals:
 In R:
 ```
      '
-      #Set the variance of alc at each time point to be 0 (?)
+      #Fix the variances of the repeated measures to 0
       alc1 ~~ 0*alc1
       alc2 ~~ 0*alc2
       alc3 ~~ 0*alc3
       alc4 ~~ 0*alc4
       alc5 ~~ 0*alc5
 
-      #Create residuals (latent variables with alc at a given time point as the indicator)
+      #Create "phantom factors" to define the time-specific residuals
+      #This is simply a programming trick so in future more complex models we can
+      #use the residuals as predictor and outcome variables. 
       salc1 =~ 1*alc1
       salc2 =~ 1*alc2
       salc3 =~ 1*alc3
       salc4 =~ 1*alc4
       salc5 =~ 1*alc5
-      
+
+      #Fix the means of the residuals to 0 for identification
       salc1 ~ 0
       salc2 ~ 0
       salc3 ~ 0
       salc4 ~ 0
       salc5 ~ 0
-      
+
+      #Estimate the variances of the residuals
       salc1 ~~ salc1
       salc2 ~~ salc2
       salc3 ~~ salc3
@@ -108,6 +112,24 @@ In MPlus:
 ```
 alc2^-alc5^ pon alc1^-alc4^ (ar); 
 ```
+<h5>Intercept & Slope </h5>
+
+```
+# random intercept
+alc.i =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1*alc5
+alc.i ~ 1
+alc.i ~~ alc.i
+
+# random slope
+alc.s =~ 0*alc1 + 1*alc2 + 2*alc3 + 3*alc4 + 4*alc5
+alc.s ~ 1
+alc.s ~~ alc.s
+alc.i ~~ alc.s
+
+```
+
+
+
 <h4>Depression</h4>
 
 
