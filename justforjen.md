@@ -61,7 +61,7 @@ The data consists of artificially generated repeated measures data with a sample
  <summary><h4> Fitting and interpreting models in MPlus</h4></summary>
  <details> 
   <summary> <h5> Step 1: Univariate Unconditional Models </h5></summary>
-          <details> <summary> <h6> Alcohol Use </h6></summary></details>
+          <details> <summary> <h6> Alcohol Use </h6></summary>
 First, we fit a random-intercept model for alcohol use (see figure 1). Note that this is just a univariate latent curve model, we have not added any structure to the residuals yet. 
 
 ```
@@ -75,6 +75,8 @@ model:
   <div><img src = "./images/LCM_tutorial_M1.1.001.jpeg" style = "width:400px"></div>
   
   <div><img src="./images/LCM_tutorial_M1.jpeg" style = "width:400px"></div>
+
+  </details>
           <details> <summary> <h6> Depression </h6></summary></details>
 </details>
  
