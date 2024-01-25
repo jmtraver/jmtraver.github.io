@@ -62,9 +62,16 @@ The data consists of artificially generated repeated measures data with a sample
  <details> 
   <summary> <h5> Step 1: Univariate Unconditional Models </h5></summary>
           <details> <summary> <h6> Alcohol Use </h6></summary></details>
-First, we fit a random-intercept model for alcohol use (see figure 1). 
+First, we fit a random-intercept model for alcohol use (see figure 1). Note that this is just a univariate latent curve model, we have not added any structure to the residuals yet. 
+
+```
+model:
+     alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1; !Define latent "alcint" variable with indicators of alcohol T1-T5.
+
+```
 
   <b><i> Figure 1: Intercept-Only Alcohol Use Model</i></b>
+  
   <div><img src = "./images/LCM_tutorial_M1.1.001.jpeg" style = "width:400px"></div>
   
   <div><img src="./images/LCM_tutorial_M1.jpeg" style = "width:400px"></div>
@@ -96,12 +103,6 @@ In R:
 alc.mod1 <- 'alcint =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1* alc5 # Define latent "alcint" variable with indicators of alcohol T1 - T5
                  alcint ~ 1 # Indicate that the latent variable alcint is an intercept
                  alcint ~~ alcint #Variance of intercept'
-```
-
-In MPlus:
-```
-model:
-     alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1; !Define latent "alcint" variable with indicators of alcohol T1-T5. 
 ```
 
 Creating the structured residuals:
@@ -139,10 +140,6 @@ In R:
       salc5 ~~ salc5'
 ```
 
-In MPlus:
-```
-alc2^-alc5^ pon alc1^-alc4^ (ar); 
-```
 <h5>Intercept & Slope </h5>
 
 ```
