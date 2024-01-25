@@ -50,7 +50,25 @@ The following section walks through the models presented in [Curran et al., 2014
 
 #### Description of data
 
-The data consists of artificially generated repeated measures data with a sample size of N = 250 and 5 timepionts. More details about the population generating model can be found in Curran et al., 2014. 
+The data consists of artificially generated repeated measures data with a sample size of N = 250 and 5 timepionts. More details about the population generating model can be found in Curran et al., 2014. The dataset contains 13 variables:
+* id: participant id (1-250)
+* gen: biological sex (females = 0, males = 1)
+* trt: treatment condition (control = 0, treatment = 1)
+* alc1 - alc5: repeated measures of alcohol use
+* dep1 - dep5: repeated measures of depression
+
+<details>
+ <summary><h4> Fitting and interpreting models in MPlus</h4></summary>
+ 
+</details> 
+
+<details>
+ <summary><h4> Fitting and interpreting models in R </h4></summary>
+</details>
+
+
+
+
 
 <details>
 <summary> <h3></h3>Models 1a and 1b: Univariate Unconditional Models</h3> </summary>
