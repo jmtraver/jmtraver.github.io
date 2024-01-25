@@ -59,9 +59,11 @@ The data consists of artificially generated repeated measures data with a sample
 
 <details>
  <summary><h4> Fitting and interpreting models in MPlus</h4></summary>
- <details> <summary> <h5> Step 1: Univariate Unconditional Models </h5></summary></details>
+ <details> 
+  <summary> <h5> Step 1: Univariate Unconditional Models </h5></summary>
           <details> <summary> <h6> Alcohol Use </h6></summary></details>
           <details> <summary> <h6> Depression </h6></summary></details>
+</details>
  
  <details> <summary> <h5> Step 2: Bivariate Unconditional Models </h5></summary></details>
  <details> <summary> <h5> Step 3: Bivariate Conditional Models </h5></summary></details>
