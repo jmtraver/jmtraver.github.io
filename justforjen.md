@@ -59,8 +59,10 @@ The data consists of artificially generated repeated measures data with a sample
 
 <details>
  <summary><h4> Fitting and interpreting models in MPlus</h4></summary>
-
  <details> <summary> <h5> Step 1: Univariate Unconditional Models </h5></summary></details>
+          <details> <summary> <h6> Alcohol Use </h6></summary></details>
+          <details> <summary> <h6> Depression </h6></summary></details>
+ 
  <details> <summary> <h5> Step 2: Bivariate Unconditional Models </h5></summary></details>
  <details> <summary> <h5> Step 3: Bivariate Conditional Models </h5></summary></details>
 
@@ -76,9 +78,6 @@ The data consists of artificially generated repeated measures data with a sample
 
 
 
-<details>
-<summary> <h3></h3>Models 1a and 1b: Univariate Unconditional Models</h3> </summary>
- <!-- Figure out how to add photo of figure -->
  
 <h4>Alcohol Use</h4>
 First, we fit an intercept-only LCM-SR for alcohol use. 
