@@ -58,7 +58,13 @@ The data consists of artificially generated repeated measures data with a sample
 * dep1 - dep5: repeated measures of depression
 
 <details>
- <summary><h4> Fitting and interpreting models in MPlus</h4></summary>
+ <summary><h3> Fitting and interpreting models in MPlus</h4></summary>
+
+ <details> <summary> <h4> Step 1: Univariate Unconditional Models </h4></summary></details>
+ <details> <summary> <h4> Step 2: Bivariate Unconditional Models </h4></summary></details>
+ <details> <summary> <h4> Step 3: Bivariate Conditional Models </h4></summary></details>
+
+
  
 </details> 
 
