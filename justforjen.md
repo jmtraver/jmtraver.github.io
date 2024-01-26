@@ -63,8 +63,8 @@ The data consists of artificially generated repeated measures data with a sample
   <summary> <h5> Step 1: Univariate Unconditional Models </h5></summary>
           <details> <summary> <h6> Alcohol Use </h6></summary>
 First, we fit a random-intercept model for alcohol use (see figure 1). Note that this is just a univariate latent curve model, we have not added any structure to the residuals yet. 
- <b><i> Figure 1: Intercept-Only Alcohol Use Model</i></b>
-  
+ 
+  <b><i> Figure 1: Intercept-Only Alcohol Use Model</i></b>
   <div><img src = "./images/LCM_tutorial_M1.1.001.jpeg" style = "width:400px"></div>
 
 ```
@@ -75,8 +75,8 @@ model:
 ```
 
   Next, we include a latent slope factor and test whether model fit significantly improves (see Figure 2). 
+ 
   <b><i> Figure 2: Intercept and Slope Alcohol Use Model</i></b>
-
   <div><img src="./images/LCM_tutorial_M1.jpeg" style = "width:400px"></div>
 
 ```
@@ -85,10 +85,10 @@ model:
      alcint alcslp | alc1@0 alc2@1 alc3@2 alc4@3 alc5@4;
 ```
 
-
-
   Finally, we include structured residuals in our model and test whether these improve model fit (see Figure 3).
-<b><i> Figure 3: Intercept, Slope, and Structured Residuals Alcohol Use Model </i><b>
+
+<b><i> Figure 3: Intercept, Slope, and Structured Residuals Alcohol Use Model </i></b>
+
 <div><img src="./images/LCM_tutorial_M1.3.001.jpeg" style = "width:400px"></div>
 
 ```
