@@ -66,7 +66,8 @@ First, we fit a random-intercept model for alcohol use (see figure 1). Note that
 
 ```
 model:
-     alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1; !Define latent "alcint" variable with indicators of alcohol T1-T5.
+     !Define latent intercept (alcint) with indicators of alcohol T1-T5.
+     alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1; 
 
 ```
 
@@ -74,9 +75,31 @@ model:
   
   <div><img src = "./images/LCM_tutorial_M1.1.001.jpeg" style = "width:400px"></div>
 
+  Next, we include a latent slope factor and test whether model fit significantly improves (see Figure 2). 
+
+```
+model:
+     !Define latent intercept (alcint) and latent slope (alcslp)
+     alcint alcslp | alc1@0 alc2@1 alc3@2 alc4@3 alc5@4;
+```
+
   <b><i> Figure 2: Intercept and Slope Alcohol Use Model</i></b>
 
   <div><img src="./images/LCM_tutorial_M1.jpeg" style = "width:400px"></div>
+
+  Finally, we include structured residuals in our model and test whether these improve model fit.
+
+```
+model:
+     !Define latent intercept (alcint) and latent slope (alcslp)
+      alcint alcslp | alc1@0 alc2@1 alc3@2 alc4@3 alc5@4;
+
+     !Regress residual at time T on the prior value of that residual (T-1)
+     !Note: the ^ symbol denotes a residual
+     alc2^-alc5^ pon alc1^alc4(ar)
+  
+```
+  <b><i> Figure 3: Intercept, Slope, and Structured Residuals Alcohol Use Model </i><b>
 
   </details>
           <details> <summary> <h6> Depression </h6></summary></details>
