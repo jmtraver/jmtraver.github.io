@@ -117,14 +117,7 @@ model:
   <details> 
    <summary> <h5> Step 1: Univariate Unconditional Models </h5></summary>
    <details> <summary> <h6> Alcohol Use </h6></summary>
-First, we fit a random-intercept model for alcohol use (see figure 1). Note that this is just a univariate latent curve model, we have not added any structure to the residuals yet.
 
-```
-
-
-```
-  <b><i> Figure 1: Intercept-Only Alcohol Use Model</i></b>  
-  <div><img src = "./images/LCM_tutorial_M1.1.001.jpeg" style = "width:400px"></div>
 
 </details>
 
@@ -132,77 +125,5 @@ First, we fit a random-intercept model for alcohol use (see figure 1). Note that
 </details>
 
 
-
-
-
- 
-<h4>Alcohol Use</h4>
-First, we fit an intercept-only LCM-SR for alcohol use. 
-
-Initalizing the random intercept:
-In R:
-```
-alc.mod1 <- 'alcint =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1* alc5 # Define latent "alcint" variable with indicators of alcohol T1 - T5
-                 alcint ~ 1 # Indicate that the latent variable alcint is an intercept
-                 alcint ~~ alcint #Variance of intercept'
-```
-
-Creating the structured residuals:
-In R:
-```
-     '
-      #Fix the variances of the repeated measures to 0
-      alc1 ~~ 0*alc1
-      alc2 ~~ 0*alc2
-      alc3 ~~ 0*alc3
-      alc4 ~~ 0*alc4
-      alc5 ~~ 0*alc5
-
-      #Create "phantom factors" to define the time-specific residuals
-      #This is simply a programming trick so in future more complex models we can
-      #use the residuals as predictor and outcome variables. 
-      salc1 =~ 1*alc1
-      salc2 =~ 1*alc2
-      salc3 =~ 1*alc3
-      salc4 =~ 1*alc4
-      salc5 =~ 1*alc5
-
-      #Fix the means of the residuals to 0 for identification
-      salc1 ~ 0
-      salc2 ~ 0
-      salc3 ~ 0
-      salc4 ~ 0
-      salc5 ~ 0
-
-      #Estimate the variances of the residuals
-      salc1 ~~ salc1
-      salc2 ~~ salc2
-      salc3 ~~ salc3
-      salc4 ~~ salc4
-      salc5 ~~ salc5'
-```
-
-<h5>Intercept & Slope </h5>
-
-```
-# random intercept
-alc.i =~ 1*alc1 + 1*alc2 + 1*alc3 + 1*alc4 + 1*alc5
-alc.i ~ 1
-alc.i ~~ alc.i
-
-# random slope
-alc.s =~ 0*alc1 + 1*alc2 + 2*alc3 + 3*alc4 + 4*alc5
-alc.s ~ 1
-alc.s ~~ alc.s
-alc.i ~~ alc.s
-
-```
-
-
-
-<h4>Depression</h4>
-
-
-</details>
 
 ---
