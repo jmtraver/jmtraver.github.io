@@ -112,17 +112,6 @@ model:
  
 </details> 
 
-<details>
- <summary><h4> Fitting and interpreting models in R </h4></summary>
-  <details> 
-   <summary> <h5> Step 1: Univariate Unconditional Models </h5></summary>
-   <details> <summary> <h6> Alcohol Use </h6></summary>
-
-
-</details>
-
-</details>
-</details>
 
 
 
