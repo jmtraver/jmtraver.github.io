@@ -87,8 +87,8 @@ model:
 
   <div><img src="./images/LCM_tutorial_M1.jpeg" style = "width:400px"></div>
 
-  Finally, we include structured residuals in our model and test whether these improve model fit.
-
+  Finally, we include structured residuals in our model and test whether these improve model fit (see Figure 3).
+  
 ```
 model:
      !Define latent intercept (alcint) and latent slope (alcslp)
@@ -100,6 +100,7 @@ model:
   
 ```
   <b><i> Figure 3: Intercept, Slope, and Structured Residuals Alcohol Use Model </i><b>
+   <div><img src="./images/LCM_tutorial_M1.3.001.jpeg" style = "width:400px"></div>
 
   </details>
           <details> <summary> <h6> Depression </h6></summary></details>
