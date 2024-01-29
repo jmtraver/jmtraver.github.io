@@ -13,6 +13,7 @@
 
 ### Overview
 Paper at the top
+different data file -- diagram based -- path models are isomporthic with equations
 We assume you have background but ...
 The LCM-SR is a structural equation model used to disaggregate the between- and within-person effects of two constructs as they unfold over time. The ability to disaggregate levels of effects is extremely desirable, as it allows researchers to more accurately and fully test their hypotheses. This tutorial will provide a practical introduction to the parameterization and application of the LCM-SR including: 
   
