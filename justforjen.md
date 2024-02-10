@@ -11,28 +11,29 @@
  {:toc}
 </details>
 
-### Overview
-Paper at the top
-different data file -- diagram based -- path models are isomporthic with equations
-We assume you have background but ...
-The LCM-SR is a structural equation model used to disaggregate the between- and within-person effects of two constructs as they unfold over time. The ability to disaggregate levels of effects is extremely desirable, as it allows researchers to more accurately and fully test their hypotheses. This tutorial will provide a practical introduction to the parameterization and application of the LCM-SR including: 
+
+**Insert Intro Video Here**
+*	Background
   
-*	Background (on the parameterization of the LCM-SR)
+*	When to use the LCM-SR
   
-*	Strategies for model building
+*	Data requirements and assumptions
   
 *	How to fit an LCM-SR in R or MPlus
     
 *	Interpreting the results of an LCM-SR     
 
-  {: .note }
- The current tutorial assumes a baseline understanding of the SEM framework and latent curve models (LCMs, also referred to as latent growth models, latent growth curve models, etc.).If you are not familiar with these topics, there are several free resources where you can begin including CenterStat’s [free introduction to SEM workshop](https://centerstat.org/introduction-to-structural-equation-modeling-async/) and [YouTube playlist](https://www.youtube.com/@centerstat/playlists) dedicated to growth modeling.
-  
 
-### Parameterization of the LCM-SR
+### Background
 
+### When to use the LCM-SR
 
-### Strategy for Building an LCM-SR 
+### Data requirements and assumptions
+Number of timepoints, number of observations, types of variables
+
+### Fitting and interpreting LCM-SRs
+
+#### Model Building Strategy
 
 Although there is no single model building strategy that is optimal for all situations, we will use the following framework:
 
