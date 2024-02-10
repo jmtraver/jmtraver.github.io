@@ -19,14 +19,14 @@ This tutorial will provide a practical introduction to the application of the la
 The current tutorial assumes a baseline understanding of the SEM framework and latent curve models (LCMs, also referred to as latent growth models, latent growth curve models, etc.).If you are not familiar with these topics, there are several free resources where you can begin including CenterStat’s [free introduction to SEM workshop](https://centerstat.org/introduction-to-structural-equation-modeling-async/) and [YouTube playlist](https://www.youtube.com/@centerstat/playlists) dedicated to growth modeling.      
 
 **Insert Intro Video Here**
-### Background
+## Background
 
-### When to use the LCM-SR
+## When to use the LCM-SR
 
-### Data requirements and assumptions
+## Data requirements and assumptions
 Number of timepoints, number of observations, types of variables
 
-### Fitting and interpreting LCM-SRs
+## Fitting and interpreting LCM-SRs
 
 The following section walks through the models presented in [Curran et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4067471/) using example data and code made available by Patrick Curran. To follow along in R or MPlus, please use the buttons below to download (1) the data and (2) code in the program of your choice.  
  
@@ -35,7 +35,7 @@ The following section walks through the models presented in [Curran et al., 2014
 [Download R Code](/LCM-SR.R){: .btn .btn-purple}
 [Download MPlus Code](/MPlus){: .btn .btn-green}
 
-#### Description of data
+### Description of data
 
 The data consists of artificially generated repeated measures data with a sample size of N = 250 and 5 timepionts. More details about the population generating model can be found in Curran et al., 2014. The dataset contains 13 variables:
 * id: participant id (1-250)
@@ -43,7 +43,8 @@ The data consists of artificially generated repeated measures data with a sample
 * trt: treatment condition (control = 0, treatment = 1)
 * alc1 - alc5: repeated measures of alcohol use
 * dep1 - dep5: repeated measures of depression
-#### Model Building Strategy
+  
+### Model Building Strategy
 
 Although there is no single model building strategy that is optimal for all situations, we will use the following framework:
 
