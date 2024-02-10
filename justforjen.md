@@ -10,10 +10,10 @@ parent: Tutorials
 
 
 This tutorial will provide a practical introduction to the application of the latent curve model with structured residuals (LCM-SR), and is designed to accompany [Curran et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4067471/). Topics covered include:
-<details open markdown = "block">
+
 1. TOC
  {:toc}
-</details>
+
 
 {: .note } 
 The current tutorial assumes a baseline understanding of the SEM framework and latent curve models (LCMs, also referred to as latent growth models, latent growth curve models, etc.).If you are not familiar with these topics, there are several free resources where you can begin including CenterStat’s [free introduction to SEM workshop](https://centerstat.org/introduction-to-structural-equation-modeling-async/) and [YouTube playlist](https://www.youtube.com/@centerstat/playlists) dedicated to growth modeling.      
