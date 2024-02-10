@@ -14,7 +14,7 @@ parent: Tutorials
  {:toc}
 </details>
 
-
+This tutorial was designed 
 **Insert Intro Video Here**
 *	Background
   
@@ -63,6 +63,13 @@ The data consists of artificially generated repeated measures data with a sample
 * trt: treatment condition (control = 0, treatment = 1)
 * alc1 - alc5: repeated measures of alcohol use
 * dep1 - dep5: repeated measures of depression
+
+```
+model:
+     !Define latent intercept (alcint) with indicators of alcohol T1-T5.
+     alcint | alc1@1 alc2@1 alc3@1 alc4@1 alc5@1; 
+
+```
 
 <details>
  <summary><h4> Fitting and interpreting models in MPlus</h4></summary>
