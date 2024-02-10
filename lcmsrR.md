@@ -1,6 +1,6 @@
 ---
 layout: default
 title: R Tutorial
-parent: Latent Curve Model with Structured Residuals
+parent: Tutorials
 ---
 Here I will add the R tutorial
