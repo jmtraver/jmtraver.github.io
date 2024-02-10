@@ -11,8 +11,6 @@ parent: Tutorials
 
 This tutorial will provide a practical introduction to the application of the latent curve model with structured residuals (LCM-SR), and is designed to accompany [Curran et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4067471/). Topics covered include:
 <details open markdown = "block">
- <summary> Table of contents 
- </summary>
 1. TOC
  {:toc}
 </details>
