@@ -1,8 +1,4 @@
----
-layout: default
-title: Just for Jen
-parent: Tutorials
----
+
 # Latent Curve Model with Structured Residuals
 {: .no_toc}
 ## A tutorial by Jen Traver and Patrick Curran
