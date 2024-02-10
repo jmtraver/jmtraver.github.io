@@ -14,7 +14,7 @@ parent: Tutorials
  {:toc}
 </details>
 
-This tutorial was designed 
+This tutorial will provide a practical introduction to the latent curve model with structured residuals (LCM-SR)
 **Insert Intro Video Here**
 *	Background
   
