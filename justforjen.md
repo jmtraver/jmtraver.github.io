@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Just for Jen
+parent: Tutorials
 ---
 # Latent Curve Model with Structured Residuals
 {: .no_toc}
