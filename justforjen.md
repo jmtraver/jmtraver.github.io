@@ -17,16 +17,6 @@ This tutorial will provide a practical introduction to the application of the la
  {:toc}
 </details>
 
-*	Background
-  
-*	When to use the LCM-SR
-  
-*	Data requirements and assumptions
-  
-*	How to fit an LCM-SR in R or MPlus
-    
-*	Interpreting the results of an LCM-SR
-
 {: .note } 
 The current tutorial assumes a baseline understanding of the SEM framework and latent curve models (LCMs, also referred to as latent growth models, latent growth curve models, etc.).If you are not familiar with these topics, there are several free resources where you can begin including CenterStat’s [free introduction to SEM workshop](https://centerstat.org/introduction-to-structural-equation-modeling-async/) and [YouTube playlist](https://www.youtube.com/@centerstat/playlists) dedicated to growth modeling.      
 
