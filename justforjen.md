@@ -56,7 +56,9 @@ At each step, we will conduct likelihood ratio tests (LRTs) to evaluate the chan
 
 
 
-[About Me](https://jmtraver.github.io/aboutme.html)
+[R Tutorial]((https://jmtraver.github.io/lcmsrR.html))
+
+
 ```
 model:
      !Define latent intercept (alcint) with indicators of alcohol T1-T5.
