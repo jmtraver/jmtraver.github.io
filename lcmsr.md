@@ -2,6 +2,7 @@
 layout: default
 title: Latent Curve Model with Structured Residuals
 parent: Tutorials
+has_children: true
 ---
 
 {: .warning }
