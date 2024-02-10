@@ -14,6 +14,6 @@ Testing the note function
 
 # Latent Curve Model with Structured Residuals
 
-## A tutorial by Jen Traver and Patrick Curran!
+## A tutorial by Jen Traver and Patrick Curran! :D
 
 ---
