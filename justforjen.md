@@ -27,9 +27,9 @@ Number of timepoints, number of observations, types of variables
 The following section walks through the models presented in [Curran et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4067471/) using example data and code made available by Patrick Curran. To follow along in R or MPlus, please use the buttons below to download (1) the data and (2) code in the program of your choice.  
  
 <!-- figure out how to best add code since R is all in one file and Mplus is across multiple files --> 
-[Download Data](/currandemo.dat){: .btn }
-[Download R Code](/LCM-SR.R){: .btn .btn-purple}
-[Download MPlus Code](/MPlus){: .btn .btn-green}
+[Download Data](/currandemo.dat){: .btn}
+[Download R Code](/LCM-SR.R){: .btn}
+[Download MPlus Code](/MPlus){: .btn}
 
 ### Description of data
 
@@ -52,7 +52,8 @@ At each step, we will conduct likelihood ratio tests (LRTs) to evaluate the chan
 
 
 
-[R Tutorial](https://jmtraver.github.io/lcmsrR.html) 
+[R Tutorial](https://jmtraver.github.io/lcmsrR.html) {: .btn .btn-purple}
+[MPlus Tutorial](https://jmtraver.github.io/lcmsrMPlus.html) {: .btn .btn-green}
 
 
 ```
