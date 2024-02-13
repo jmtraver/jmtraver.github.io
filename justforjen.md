@@ -52,7 +52,7 @@ At each step, we will conduct likelihood ratio tests (LRTs) to evaluate the chan
 
 
 
-[R Tutorial]((https://jmtraver.github.io/lcmsrR.html))
+[R Tutorial](https://jmtraver.github.io/lcmsrR.html) 
 
 
 ```
