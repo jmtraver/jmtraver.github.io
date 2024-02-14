@@ -12,7 +12,7 @@ Download Data Download R Code
  {:toc}
 
 ## Univariate Unconditional LCM-SRs for alcohol use & depression
-Random Intercept Only
+### Random Intercept Only
 ```
 alc.mod1 <- '
 # ALCOHOL #
@@ -51,7 +51,7 @@ alc.fit1 <- lavaan(alc.mod1, lcmsr.sim)
 summary(alc.fit1, fit.measures = T)
 
 ```
-Random Intercept and Random Slope
+### Random Intercept and Random Slope
 
 ```
 alc.mod2 <- '
@@ -97,7 +97,7 @@ alc.fit2 <- lavaan(alc.mod2, lcmsr.sim)
 summary(alc.fit2, fit.measures = T)
 print(anova(alc.fit1, alc.fit2))
 ```
-Random Intercept, Random Slope, and Structured Residuals
+### Random Intercept, Random Slope, and Structured Residuals
 ```
 alc.mod3 <- '
 # ALCOHOL #
